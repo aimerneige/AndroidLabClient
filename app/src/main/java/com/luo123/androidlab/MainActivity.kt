@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     private val handler = Handler()
     private var nightMode = false
     private val TAG = "Main"
-    private var address = "https://x.kenvix.com:7352/"
+    private var address = "https://lab6.kenvix.com/"
     private lateinit var netWorkSwitchManager: NetWorkSwitchManager
     private val FILECHOOSER_RESULTCODE = 1
     private var firstLoad = true // 第一次加载网页
